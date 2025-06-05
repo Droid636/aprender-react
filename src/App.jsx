@@ -6,7 +6,15 @@ function App() {
 
   return (
     <>
-      <h1>Hola UTSH</h1>
+     <div className="container">
+      <div className="row">
+        <div className="cold-12">
+          <h1 className="mt-2 text-center alert alert-success">
+            Hola Utsh
+          </h1>
+        </div>
+      </div>
+     </div>
     </>
   )
 }
